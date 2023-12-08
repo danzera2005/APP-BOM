@@ -1,10 +1,16 @@
 import {NavigationContainer} from "@react-navigation/native"
-import StackNavigator from "./stack"
+import StackNavigator from "./routes"
+
+
 
 export default function Routes(){
+  
+
     return(
+
         <NavigationContainer>
             <StackNavigator/>
         </NavigationContainer>
+        
     )
 }
